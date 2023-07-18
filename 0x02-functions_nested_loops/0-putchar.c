@@ -14,7 +14,7 @@ int main()
 	_putchar('c');
 	_putchar('h');
 	_putchar('a');
-	_putchar('5');
+	_putchar('r');
 
 	return (0);
 }
