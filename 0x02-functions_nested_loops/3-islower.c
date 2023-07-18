@@ -6,9 +6,9 @@
  *
  * Return: 1 (True) else 0 (False)
  */
-int _islower(char c)
+int _islower(char num)
 {
-	if (c >= 'a' && c <= 'z')
+	if (num >= 'a' && num <= 'z')
 	{
 		return (1);
 	}
