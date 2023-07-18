@@ -1,20 +1,17 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - print putchar
  *
  * Returns - 0
  */
-int main()
+int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char *a = "_putchar";
 
+	while (*a)
+	{
+		_putchar(*a);
+		a++;
+	}
 	return (0);
 }
