@@ -2,16 +2,18 @@
 /**
  * main - print _putchar
  *
- * Returns: always 0
+ * Return: always 0
  */
 int main(void)
 {
-	char *a = "_putchar\n";
-
-	while (*a)
-	{
-		_putchar(*a);
-		a++;
-	}
+	_putchar("_\n");
+	_putchar("p\n");
+	_putchar("u\n");
+	_putchar("t\n");
+	_putchar("c\n");
+	_putchar("h\n");
+	_putchar("a\n");
+	_putchar("r\n");
+	
 	return (0);
 }
