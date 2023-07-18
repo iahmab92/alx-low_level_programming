@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * main - print putchar
+ * main - print _putchar
  *
- * Returns - 0
+ * Returns: always 0
  */
 int main(void)
 {
-	char *a = "_putchar";
+	char *a = "_putchar\n";
 
 	while (*a)
 	{
