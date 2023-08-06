@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _puts_recursion - print string followed by a new line
+ * _puts_recursion - Prints a string followed by a new line
  * @s: string
  *
- * REturn: 1 on success
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-voud _puts_recursion(char *s)
+void _puts_recursion(char *s)
 {
 	if (*s == 0)
 	{
@@ -15,5 +15,5 @@ voud _puts_recursion(char *s)
 		return;
 	}
 	_putchar(*s);
-	_putchar_recursion(s + 1);
+	_puts_recursion(s + 1);
 }
