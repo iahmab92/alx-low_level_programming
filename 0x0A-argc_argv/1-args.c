@@ -10,9 +10,17 @@
  */
 int main(int argc, char *argv[])
 {
-    int num_arguments = argc - 1;
+	int i;
 
-    printf("%d\n", num_arguments);
+	if (argc == 1)
+		printf("%d\n", argc - 1);
+	else
+	{
+		for (i = 0; *argv; i++, argv++)
+			;
 
-    return 0;
+		printf("%d\n", i - 1);
+	}
+
+	return (0);
 }
